@@ -16,12 +16,12 @@ margin-top: 50px;
 		border-radius:6px 0px 0px 6px;
 		
 		//input start
-		.squaredThree {
+		.checkedOff {
 		  width: 20px;
 		  position: relative;
 		  margin: 11px auto;
 		}
-		.squaredThree label {
+		.checkedOff label {
 		  width: 20px;
 		  height: 20px;
 		  cursor: pointer;
@@ -38,7 +38,7 @@ margin-top: 50px;
 		  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
 		  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
 		}
-		.squaredThree label:after {
+		.checkedOff label:after {
 		  content: '';
 		  width: 12px;
 		  height: 7px;
@@ -56,14 +56,14 @@ margin-top: 50px;
 		  -webkit-transform: rotate(-45deg);
 		  transform: rotate(-45deg);
 		}
-		.squaredThree label:hover::after {
+		.checkedOff label:hover::after {
 		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
 		  opacity: 0.3;
 		}
-		.squaredThree input[type=checkbox] {
+		.checkedOff input[type=checkbox] {
 		  visibility: hidden;
 		}
-		.squaredThree input[type=checkbox]:checked + label:after {
+		.checkedOff input[type=checkbox]:checked + label:after {
 		  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
 		  opacity: 1;
 		}
@@ -131,6 +131,15 @@ margin-top: 50px;
 			width:58px;
 			margin-right: -20px;
 		}
+	.linerAfter{
+			border-bottom: 2px dashed $orange;
+			border-left: 2px dashed $orange;
+			height: 61px;
+			float: right;
+			width:58px;
+			margin-top: -25px;
+			margin-right: -20px;
+		}
 	.listItem2{
 		border: 2px solid $lightGreen;
 		border-radius: 6px;
@@ -146,12 +155,12 @@ margin-top: 50px;
 		border-radius:6px 0px 0px 6px;
 		
 		//input start
-		.squaredThree {
+		.checkedOff {
 		  width: 20px;
 		  position: relative;
 		  margin: 11px auto;
 		}
-		.squaredThree label {
+		.checkedOff label {
 		  width: 20px;
 		  height: 20px;
 		  cursor: pointer;
@@ -168,7 +177,7 @@ margin-top: 50px;
 		  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
 		  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
 		}
-		.squaredThree label:after {
+		.checkedOff label:after {
 		  content: '';
 		  width: 12px;
 		  height: 7px;
@@ -186,14 +195,14 @@ margin-top: 50px;
 		  -webkit-transform: rotate(-45deg);
 		  transform: rotate(-45deg);
 		}
-		.squaredThree label:hover::after {
+		.checkedOff label:hover::after {
 		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
 		  opacity: 0.3;
 		}
-		.squaredThree input[type=checkbox] {
+		.checkedOff input[type=checkbox] {
 		  visibility: hidden;
 		}
-		.squaredThree input[type=checkbox]:checked + label:after {
+		.checkedOff input[type=checkbox]:checked + label:after {
 		  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
 		  opacity: 1;
 		}
