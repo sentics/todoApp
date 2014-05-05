@@ -1,0 +1,22 @@
+footer.primaryFoot{
+	color: $lightGreen;
+	text-align: center;
+	height: 90px;
+	line-height: 0px;
+	hr{
+		border: none;
+		height: 4px;
+		background-color: $lightGreen;
+		
+	}
+	a {
+				&:link, &:visited {
+					color: $orange;
+					text-decoration: none;
+				}
+				&:hover {
+					color: $darkYellow;
+					text-decoration: none;
+				}
+			}
+}

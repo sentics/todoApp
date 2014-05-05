@@ -1,0 +1,257 @@
+section.primary{
+margin-top: 50px;
+	height: 540px;
+	display:block;
+	.listItem{
+		border: 2px solid $lightGreen;
+		border-radius: 6px;
+		height: 50px;
+		.expand{
+		
+		height: 46px;
+		width:45px;
+		float: left;
+		background-color:$lightGreen;
+		border:2px solid white;
+		border-radius:6px 0px 0px 6px;
+		
+		//input start
+		.squaredThree {
+		  width: 20px;
+		  position: relative;
+		  margin: 11px auto;
+		}
+		.squaredThree label {
+		  width: 20px;
+		  height: 20px;
+		  cursor: pointer;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  background: -moz-linear-gradient(top, #222222 0%, #45484d 100%);
+		  background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+		  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+		  -moz-border-radius: 4px;
+		  -webkit-border-radius: 4px;
+		  border-radius: 4px;
+		  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		}
+		.squaredThree label:after {
+		  content: '';
+		  width: 12px;
+		  height: 7px;
+		  position: absolute;
+		  top: 5px;
+		  left: 4px;
+		  border: 3px solid $lightGreen;
+		  border-top: none;
+		  border-right: none;
+		  background: transparent;
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+		  opacity: 0;
+		  -moz-transform: rotate(-45deg);
+		  -ms-transform: rotate(-45deg);
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
+		}
+		.squaredThree label:hover::after {
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+		  opacity: 0.3;
+		}
+		.squaredThree input[type=checkbox] {
+		  visibility: hidden;
+		}
+		.squaredThree input[type=checkbox]:checked + label:after {
+		  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+		  opacity: 1;
+		}
+		//input end
+	}
+	.textfeild{
+		
+		height: 47px;
+		width:360px;
+		float: left;
+		.textBox{
+			height: 46px;
+			border: none;
+			width: 100%;
+		}
+		input[type=text], textarea {
+			-webkit-transition: all 0.30s ease-in-out;
+			-moz-transition: all 0.30s ease-in-out;
+			-ms-transition: all 0.30s ease-in-out;
+			-o-transition: all 0.30s ease-in-out;
+			outline: none;
+			padding: 3px 0px 3px 3px;
+			margin: 0px 1px 3px 0px;
+			border: 1px solid #fff;
+			color:$lightGrey;
+			font-family: $mainFont;
+			font-weight: 100;
+		}
+ 
+		input[type=text]:focus, textarea:focus {
+			box-shadow: 0 0 5px rgba(217, 88, 59, 1);
+			padding: 3px 0px 3px 3px;
+			margin: 0px 1px 3px 0px;
+			border: 1px solid rgba(217, 88, 59, 1);
+ 	 	}
+	}
+	.menu{
+		img{
+			margin-top: -5px;
+			margin-right: 5px;
+		}
+		height: 42px;
+		width:50px;
+		float: left;
+		margin-top: 2px;
+		a {
+			padding-left:10px;
+			font-size: 15px;
+				&:link, &:visited {
+					color: $lightGreen;
+					text-decoration: none;
+				}
+				&:hover {
+					color: $darkRed;
+					text-decoration: none;
+				}
+			}
+	}
+	}
+	.liner{
+			border-bottom: 2px dashed $orange;
+			border-left: 2px dashed $orange;
+			height: 35px;
+			float: right;
+			width:58px;
+			margin-right: -20px;
+		}
+	.listItem2{
+		border: 2px solid $lightGreen;
+		border-radius: 6px;
+		height: 50px;
+		margin-top: 10px;
+		.expand{
+		
+		height: 46px;
+		width:45px;
+		float: left;
+		background-color:$lightGreen;
+		border:2px solid white;
+		border-radius:6px 0px 0px 6px;
+		
+		//input start
+		.squaredThree {
+		  width: 20px;
+		  position: relative;
+		  margin: 11px auto;
+		}
+		.squaredThree label {
+		  width: 20px;
+		  height: 20px;
+		  cursor: pointer;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  background: -moz-linear-gradient(top, #222222 0%, #45484d 100%);
+		  background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+		  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+		  -moz-border-radius: 4px;
+		  -webkit-border-radius: 4px;
+		  border-radius: 4px;
+		  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+		}
+		.squaredThree label:after {
+		  content: '';
+		  width: 12px;
+		  height: 7px;
+		  position: absolute;
+		  top: 5px;
+		  left: 4px;
+		  border: 3px solid $lightGreen;
+		  border-top: none;
+		  border-right: none;
+		  background: transparent;
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+		  opacity: 0;
+		  -moz-transform: rotate(-45deg);
+		  -ms-transform: rotate(-45deg);
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
+		}
+		.squaredThree label:hover::after {
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+		  opacity: 0.3;
+		}
+		.squaredThree input[type=checkbox] {
+		  visibility: hidden;
+		}
+		.squaredThree input[type=checkbox]:checked + label:after {
+		  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+		  opacity: 1;
+		}
+		//input end
+	}
+	.textfeild{
+		
+		height: 47px;
+		width:331px;
+		float: left;
+		.textBox{
+			height: 46px;
+			border: none;
+			width: 100%;
+		}
+		input[type=text], textarea {
+			-webkit-transition: all 0.30s ease-in-out;
+			-moz-transition: all 0.30s ease-in-out;
+			-ms-transition: all 0.30s ease-in-out;
+			-o-transition: all 0.30s ease-in-out;
+			outline: none;
+			padding: 3px 0px 3px 3px;
+			margin: 0px 1px 3px 0px;
+			border: 1px solid #fff;
+			color:$lightGrey;
+			font-family: $mainFont;
+			font-weight: 100;
+		}
+ 
+		input[type=text]:focus, textarea:focus {
+			box-shadow: 0 0 5px rgba(217, 88, 59, 1);
+			padding: 3px 0px 3px 3px;
+			margin: 0px 1px 3px 0px;
+			border: 1px solid rgba(217, 88, 59, 1);
+			border-radius:0px 4px 4px 0px;
+ 	 	}
+	}
+	.menu{
+		img{
+			margin-top: -5px;
+			margin-right: 5px;
+		}
+		height: 42px;
+		width:50px;
+		float: left;
+		margin-top: 2px;
+		a {
+			padding-left:10px;
+			font-size: 15px;
+				&:link, &:visited {
+					color: $lightGreen;
+					text-decoration: none;
+				}
+				&:hover {
+					color: $darkRed;
+					text-decoration: none;
+				}
+			}
+	}
+	}
+}
